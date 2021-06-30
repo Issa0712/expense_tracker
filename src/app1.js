@@ -12,6 +12,7 @@ import './styles/styles.scss'
 
 const store = configureStore()
 
+console.log('test')
 
 const state = store.getState()
 const visibleExpenses = getvisibleExpenses(state.expenses, state.filters)
